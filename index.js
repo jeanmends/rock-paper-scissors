@@ -85,7 +85,7 @@ function checkWinner(pointsHuman, pointsComputer){
         h1.textContent = 'Human won the game'
         console.log("Human won the game!")
     }else if(pointsComputer > pointsHuman){
-        h1.textContent = 'Human won the game'
+        h1.textContent = 'Computer won the game'
         console.log("Computer won the game!")
     }else{
         h1.textContent = 'No winners!';
